@@ -49,27 +49,10 @@ from sklearn.cluster import KMeans
 # Support vector machine - support vector regressor
 from sklearn.svm import SVR
 
-# gradient boosting trees
-from xgboost import XGBRegressor
-
 # we use it to interact with the file system
 import os
 # compute time
 from time import time
-
-# Neural network high level framework
-import keras
-# Sequential is a sequence of blocs
-# Input deals with the data fed to the network
-from keras.models import Sequential,Input,Model
-# Dense is a feedforward layer with fully connected nodes
-# Dropout allows to keep part of data, and to "drop out" a the rest
-# Flatten makes the data "flat", i.e. in one dimension
-from keras.layers import Dense, Dropout, Flatten
-# Conv -> convolution, MaxPooling is relative to Pooling
-# Activation if the function composing the data in output of a layer
-from keras.layers import Conv2D, MaxPooling2D, Activation
-
 
 # #### Now, we import data
 
